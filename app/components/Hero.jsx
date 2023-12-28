@@ -28,8 +28,8 @@ export default function Hero () {
         return (
           <div key={item.id} className='flex flex-col lg:gap-10 2xl:gap-20 gap-8 '>
           <h1 key={item.id} className='animation w-full uppercase  py-1 xl:leading-[70px] text-[2rem] leading-[35px] sm:leading-[40px] md:leading-[60px] sm:text-4xl md:text-5xl xl:text-7xl '>{item.title}</h1>
-          <Image src="/maincomp.jpg" alt="Picture of the author" width={2000} height={1000} className='animation rounded-md md:block hidden' />
-          <Image src="/mainmob.jpg" alt="Picture of the author" width={2000} height={1000} className='animation  md:hidden block' />
+          <Image src="/maincomp.webp" alt="Picture of the author" width={2000} height={1000} className='animation rounded-md md:block hidden' />
+          <Image src="/mainmob.webp" alt="Picture of the author" width={2000} height={1000} className='animation  md:hidden block' />
           <Link href="/" className='button w-min' >Boka ett möte!</Link>
            
           </div>

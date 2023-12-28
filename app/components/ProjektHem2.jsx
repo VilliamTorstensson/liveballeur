@@ -7,14 +7,14 @@ export default function ProjektHem2 () {
       id: 1,
       title: 'marbodal',
       service: 'foto & film',
-      url: '/1002.jpg',
+      url: '/1002.webp',
       banner: 'marbodal',
       link: '/portfolio/Marbodal',
       
 
       title2: 'fc gruppen',
       service2: 'foto & film',
-      url2: '/1004.jpg',
+      url2: '/1004.webp',
       banner2: 'fc gruppen',
      link2: '/portfolio/Fcgruppen'
     },
@@ -22,13 +22,13 @@ export default function ProjektHem2 () {
       id: 2,
       title: 'atteviks bil',
       service: 'foto & film',
-      url: '/1003.jpg',
+      url: '/1003.webp',
       banner: 'atteviks bil',
       link: '/portfolio/Atteviks',
       
       title2: 'jkpg fast',
       service2: 'foto & film',
-      url2: '/1001.jpg',
+      url2: '/1001.webp',
       banner2: 'jkpg fast',
       link2: '/portfolio/Jkpgfast',
   
