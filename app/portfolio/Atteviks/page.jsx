@@ -65,7 +65,9 @@ export default function Atteviks () {
                   </div>
               </div>
               {/**VIDEO ATTEVIKS */}
-             
+              <div className='mt-5'>
+             <video className='rounded-lg' src="/atteviks1.mp4" controls muted loop width="100%" height="100%" />
+             </div>
               {/*bildcontent borjar här*/}
               <div className='mt-10 pb-5 max-w-[1700px] mx-auto' key={item.id}>
                 <div className='flex md:justify-end'>
@@ -104,7 +106,9 @@ export default function Atteviks () {
               </div>
               </div>
             ))}
-          
+            <div className='mb-10'>
+             <video className='rounded-lg' src="/atteviks2.mp4" controls muted loop width="100%" height="100%" />
+             </div>
         </section>
     </main>
   )

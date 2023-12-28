@@ -62,7 +62,9 @@ export default function Fcgruppen () {
                     </Link>
                   </div>
               </div>
-             
+              <div className='mt-5'>
+             <video className='rounded-lg' src="/fc.mp4" controls muted loop width="100%" height="100%" />
+             </div>
               {/*bildcontent borjar här*/}
               <div className=' pb-20 max-w-[1700px] mx-auto' key={item.id}>
                 <div className='flex md:justify-end'>

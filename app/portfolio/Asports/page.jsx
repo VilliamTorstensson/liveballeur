@@ -46,7 +46,9 @@ export default function Asports () {
               </div>
             ))}
               {/**VIDEO Asports */}
-          
+              <div className='mt-5 mb-10'>
+             <video className='rounded-lg' src="/asports.mp4" controls muted loop width="100%" height="100%" />
+             </div>
         </section>
     </main>
   )
