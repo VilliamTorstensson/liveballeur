@@ -53,7 +53,7 @@ export default function ProjektHem2 () {
     <main className="max-w-[1700px] mx-auto px-4 md:px-10 py-20">        
       <div className="animation">
       {projekt.map((projekt) => (
-        <div key={projekt.id} className="grid md:first:grid-cols-[1.4fr_1fr] md:grid-cols-[1fr_1.4fr] last:grid-cols-2 md:gap-5">
+        <div key={projekt.id} className="grid md:first:grid-cols-[1.4fr_1fr] md:grid-cols-[1fr_1.4fr] grid-cols-1 md:gap-5">
           <Link href={projekt.link} >
           <div key={projekt.id} className="mb-5 ">
             <div className="relative">
