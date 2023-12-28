@@ -53,7 +53,7 @@ export default function ProjektHem2 () {
         
       <div>
       {projekt.map((projekt) => (
-        <div key={projekt.id} className="grid md:first:grid-cols-[2fr_1fr] md:last:grid-cols-[1fr_2fr] grid-cols-1 md:gap-5">
+        <div key={projekt.id} className="grid md:first:grid-cols-[1.4fr_1fr] md:last:grid-cols-[1fr_1.4fr] grid-cols-1 md:gap-5">
           <Link href={projekt.link} >
           <div key={projekt.id} className="mb-5 ">
             <div className="relative">
