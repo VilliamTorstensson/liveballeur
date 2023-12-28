@@ -43,12 +43,12 @@ export default function Services () {
       
         
     <div className=' md:mb-3  flex justify-between items-center border-b pb-2 border-[#323232]'>
-    <h1 className='text-sm md:text-lg uppercase text-[#323232] flex'>balleur production group scandinavia </h1>
-      <LuDot className='text-2xl text-[#323232]' />
+    <h1 className='text-sm md:text-lg uppercase  flex'>balleur production group scandinavia </h1>
+      <LuDot className='text-2xl ' />
       
     </div>
     <div className='py-4'>
-      <h1 className='uppercase text-[#323232] py-2 text-2xl md:text-5xl lg:text-5xl '>Vi hjälper företag runt <br /> om i hela landet med</h1>
+      <h1 className='uppercase  py-2 text-2xl md:text-5xl lg:text-5xl '>Vi hjälper företag runt <br /> om i hela landet med</h1>
     </div>
     <div className='flex flex-col gap-4 '>
         
@@ -57,8 +57,8 @@ export default function Services () {
         
         <div className='flex-col  flex w-full ' key={q.id}>
             <div className={`cursor-pointer border-b-[1px] border-[#323232]  rounded-sm w-full pb-5  ${q.id === 1 ? '' : ''}`}>
-            <div className='w-full flex justify-between items-center  text-[#323232]' onClick={() => handleQuestionClick(q.id)}>
-            <h1 className='pt-5 md:text-xl text-md uppercase w-[80%] text-[#323232]' onClick={() => handleQuestionClick(q.id)}>{q.question} </h1>
+            <div className='w-full flex justify-between items-center  ' onClick={() => handleQuestionClick(q.id)}>
+            <h1 className='pt-5 md:text-xl text-md uppercase w-[80%] ' onClick={() => handleQuestionClick(q.id)}>{q.question} </h1>
             
             {selectedQuestion === q.id ? (
               <FaMinus  className='text-2xl'/>) : (

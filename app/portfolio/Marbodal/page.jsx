@@ -1,12 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function Jkpgfast () {
+export default function Marbodal () {
 
   const content = [
     {
       id: 1,
-      namn: 'Jönköpings Kommuns Fastighetsutveckling',
       title: 'Marbodal - Starcenter', 
       title2: '-din köksleverantör i jönköping' ,  
      
