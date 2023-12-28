@@ -62,7 +62,7 @@ export default function Fcgruppen () {
                     </Link>
                   </div>
               </div>
-              <div className='mt-5'>
+              <div className='my-5'>
              <video className='rounded-lg' src="/fc.mp4" controls muted loop width="100%" height="100%" />
              </div>
               {/*bildcontent borjar här*/}

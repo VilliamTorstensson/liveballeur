@@ -63,7 +63,7 @@ export default function Jkpgfast () {
                     </Link>
                   </div>
               </div>
-              <div className='mt-5'>
+              <div className='my-5'>
              <video className='rounded-lg' src="/jkpg.mp4" controls muted loop width="100%" height="100%" />
              </div>
               {/*bildcontent borjar här*/}
