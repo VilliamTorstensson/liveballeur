@@ -88,7 +88,7 @@ export default function ProjektHem2 () {
     </div>
     
         <div className="mt-5">
-          <Link className="px-[2rem] py-[0.4rem] rounded-full border-[#323232] border uppercase text-[12px] hover:bg-black hover:text-white " href="/">
+          <Link className="px-[2rem] py-[0.4rem] rounded-full border-[#323232] border uppercase text-[12px] hover:bg-black hover:text-white " href="mailto:Samuel@balleurproduction.com">
             boka ett möte
           </Link>
         </div>

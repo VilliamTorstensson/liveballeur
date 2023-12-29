@@ -24,7 +24,7 @@ export default function About () {
               <br />
               För att vi är mer än ett produktionsbolag - vi är era partners i att skapa en oförglömlig berättelse. Låt oss gemensamt bygga en framtid där varje bild, varje ord och varje sekund rör vid hjärtat och engagerar dina kunder på djupet.  
               </h1>
-              <Link href="/" className='button w-min' >Boka ett möte!</Link>
+              <Link href="mailto:Samuel@balleurproduction.com" className='button w-min' >Boka ett möte!</Link>
             </div>
         </div>
         <div className='grid grid-cols-2 md:grid-cols-3 border-t pt-5 gap-10 md:gap-5 py-10'>
@@ -44,7 +44,7 @@ export default function About () {
           
         </div>
         <div className='flex flex-col items-start justify-end  md:mt-5 gap-2 mb-5'>
-            <Link href="/" className='button w-min' >Boka ett möte!</Link>
+            <Link href="mailto:Samuel@balleurproduction.com" className='button w-min' >Boka ett möte!</Link>
           </div>
         <div>
           <h1 className='font-medium text-lg pt-5 uppercase'>Vi har erbjudit proffesionella tjänster sedan 2015</h1>
@@ -77,7 +77,7 @@ Med basen i Jönköping, tar vi vår kunskap, engagemang och expertis till hela 
  <br />
 
 Så, oavsett om du befinner dig i norrland, längs den soliga västkusten eller någonstans mitt emellan, är vi redo att stödja din resa mot digital framgång. Vårt hjärta är i Jönköping, men våra möjligheter är gränslösa. </h1>
-<Link href="/" className='button w-min' >Boka ett möte!</Link>
+<Link href="mailto:Samuel@balleurproduction.com" className='button w-min' >Boka ett möte!</Link>
       </div>
     </main>
   )

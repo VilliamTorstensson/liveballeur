@@ -21,7 +21,7 @@ export default function Stats () {
     
   </div>
   <div className='flex flex-col items-start justify-end  md:mt-5 gap-2 mb-5'>
-      <Link href="/" className='button' >Boka ett möte!</Link>
+      <Link href="mailto:Samuel@balleurproduction.com" className='button' >Boka ett möte!</Link>
     </div>
   </main>
   )

@@ -8,7 +8,7 @@ export default function ProjektHero () {
         <div className="flex flex-col gap-5">
         
           <h1 className="animation text-3xl xl:text-5xl lg:w-[78%] md:text-4xl  py-2 font-medium "><RxBorderSolid className='inline-block mr-2' />Utforska Våra senaste projekt av Fotografi, Film och Effektiv Social Media Hantering</h1>
-          <Link className='button w-min animation' href="#contact">BOKA ETT MÖTE</Link>
+          <Link className='button w-min animation uppercase' href="mailto:Samuel@balleurproduction.com">BOKA ETT MÖTE</Link>
         </div>
       </div>
     </main>

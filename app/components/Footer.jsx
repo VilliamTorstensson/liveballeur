@@ -1,5 +1,8 @@
+
 import Link from 'next/link'
+
 export default function Footer () {
+
   return (
    <main  className='overflow-x-hidden'>
 
@@ -8,14 +11,17 @@ export default function Footer () {
               <div>
                 <h1 className='pb-5 text-2xl font-normal'>Kontakta oss</h1>
               </div>
-            <form id="contact" className='' action="submit">
+             
+
+               
+            <form id="contact" className='' action="https://formspree.io/f/xleqeeko" method="POST">
               <div className='flex flex-col md:grid md:grid-cols-2 gap-4'>
             <input type="text" placeholder="Namn *" className="w-full h-10 border-b text-black font-normal placeholder-gray-600 text-sm py-2 bg-transparent border-gray-600" required/>
-              <input type="email" placeholder="Email *" className="w-full h-10 border-b text-black font-normal placeholder-gray-600 text-sm py-2 bg-transparent border-gray-600" required/>
-              <input type="tel" placeholder="Telefon *" className="w-full h-10 border-b text-black font-normal placeholder-gray-600  text-sm py-2 bg-transparent border-gray-600" required/>
-              <input type="text" placeholder="Företag * (optional)" className="w-full h-10 border-b text-black font-normal placeholder-gray-600  text-sm py-2 bg-transparent border-gray-600" required />
+              <input name='Email' type="email" placeholder="Email *" className="w-full h-10 border-b text-black font-normal placeholder-gray-600 text-sm py-2 bg-transparent border-gray-600" required/>
+              <input name='Telefon' type="tel" placeholder="Telefon *" className="w-full h-10 border-b text-black font-normal placeholder-gray-600  text-sm py-2 bg-transparent border-gray-600" required/>
+              <input name='Företag' type="text" placeholder="Företag * (optional)" className="w-full h-10 border-b text-black font-normal placeholder-gray-600  text-sm py-2 bg-transparent border-gray-600" required />
               </div>
-              <input type="textarea" placeholder="Vi är intresserade av *" className=" w-full h-10 border-b text-black font-normal mt-10 placeholder-gray-600  text-sm py-2 bg-transparent border-gray-600" />
+              <input name="Meddelande" type="textarea" placeholder="Vi är intresserade av *" className=" w-full h-10 border-b text-black font-normal mt-10 placeholder-gray-600  text-sm py-2 bg-transparent border-gray-600" />
 
               <div className='mt-5'>
             <button className='button' type="submit">
@@ -23,7 +29,7 @@ export default function Footer () {
             </button>
             </div>
               </form>
-              
+            
               
             
           

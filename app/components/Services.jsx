@@ -81,7 +81,7 @@ export default function Services () {
       </div>
       <div className='mt-6 flex-col flex gap-5'>
       
-      <Link className='button w-min' href="#contact">
+      <Link className='button w-min' href="mailto:Samuel@balleurproduction.com">
         Boka ett möte
       </Link>
     </div>
