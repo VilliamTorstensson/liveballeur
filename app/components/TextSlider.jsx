@@ -67,6 +67,70 @@ export default function TextSlider () {
         <div className='h-full flex items-center'>
         <RxBorderSolid className='text-4xl xl:text-5xl lg:text-6xl md:text-8xl' />
         </div>
+        <h1 className="text-[#000] text-4xl md:text-5xl lg:6xl xl:text-9xl font-normal w-content">Foto </h1>
+        <div className='h-full flex items-center'>
+        <RxBorderSolid className='text-4xl xl:text-5xl lg:text-6xl md:text-8xl' />
+        </div>
+        <h1 className="text-[#000] text-4xl md:text-5xl lg:6xl xl:text-9xl font-normal whitespace-nowrap w-content">Social media management </h1>
+        <div className='h-full flex items-center'>
+        <RxBorderSolid className='text-4xl xl:text-5xl lg:text-6xl md:text-8xl' />
+        </div>
+        <h1 className="text-[#000] text-4xl md:text-5xl lg:6xl xl:text-9xl font-normal whitespace-nowrap w-content">Film </h1>
+        <div className='h-full flex items-center'>
+        <RxBorderSolid className='text-4xl xl:text-5xl lg:text-6xl md:text-8xl' />
+        </div>
+        <h1 className="text-[#000] text-4xl md:text-5xl lg:6xl xl:text-9xl font-normal whitespace-nowrap w-content">Consulting </h1>
+        <div className='h-full flex items-center'>
+        <RxBorderSolid className='text-4xl xl:text-5xl lg:text-6xl md:text-8xl' />
+        </div>
+        <h1 className="text-[#000] text-4xl md:text-5xl lg:6xl xl:text-9xl font-normal w-content">Foto </h1>
+        <div className='h-full flex items-center'>
+        <RxBorderSolid className='text-4xl xl:text-5xl lg:text-6xl md:text-8xl' />
+        </div>
+        <h1 className="text-[#000] text-4xl md:text-5xl lg:6xl xl:text-9xl font-normal whitespace-nowrap w-content">Social media management </h1>
+        <div className='h-full flex items-center'>
+        <RxBorderSolid className='text-4xl xl:text-5xl lg:text-6xl md:text-8xl' />
+        </div>
+        <h1 className="text-[#000] text-4xl md:text-5xl lg:6xl xl:text-9xl font-normal whitespace-nowrap w-content">Film </h1>
+        <div className='h-full flex items-center'>
+        <RxBorderSolid className='text-4xl xl:text-5xl lg:text-6xl md:text-8xl' />
+        </div>
+        <h1 className="text-[#000] text-4xl md:text-5xl lg:6xl xl:text-9xl font-normal whitespace-nowrap w-content">Consulting </h1>
+        <div className='h-full flex items-center'>
+        <RxBorderSolid className='text-4xl xl:text-5xl lg:text-6xl md:text-8xl' />
+        </div>
+        <h1 className="text-[#000] text-4xl md:text-5xl lg:6xl xl:text-9xl font-normal w-content">Foto </h1>
+        <div className='h-full flex items-center'>
+        <RxBorderSolid className='text-4xl xl:text-5xl lg:text-6xl md:text-8xl' />
+        </div>
+        <h1 className="text-[#000] text-4xl md:text-5xl lg:6xl xl:text-9xl font-normal whitespace-nowrap w-content">Social media management </h1>
+        <div className='h-full flex items-center'>
+        <RxBorderSolid className='text-4xl xl:text-5xl lg:text-6xl md:text-8xl' />
+        </div>
+        <h1 className="text-[#000] text-4xl md:text-5xl lg:6xl xl:text-9xl font-normal whitespace-nowrap w-content">Film </h1>
+        <div className='h-full flex items-center'>
+        <RxBorderSolid className='text-4xl xl:text-5xl lg:text-6xl md:text-8xl' />
+        </div>
+        <h1 className="text-[#000] text-4xl md:text-5xl lg:6xl xl:text-9xl font-normal whitespace-nowrap w-content">Consulting </h1>
+        <div className='h-full flex items-center'>
+        <RxBorderSolid className='text-4xl xl:text-5xl lg:text-6xl md:text-8xl' />
+        </div>
+        <h1 className="text-[#000] text-4xl md:text-5xl lg:6xl xl:text-9xl font-normal w-content">Foto </h1>
+        <div className='h-full flex items-center'>
+        <RxBorderSolid className='text-4xl xl:text-5xl lg:text-6xl md:text-8xl' />
+        </div>
+        <h1 className="text-[#000] text-4xl md:text-5xl lg:6xl xl:text-9xl font-normal whitespace-nowrap w-content">Social media management </h1>
+        <div className='h-full flex items-center'>
+        <RxBorderSolid className='text-4xl xl:text-5xl lg:text-6xl md:text-8xl' />
+        </div>
+        <h1 className="text-[#000] text-4xl md:text-5xl lg:6xl xl:text-9xl font-normal whitespace-nowrap w-content">Film </h1>
+        <div className='h-full flex items-center'>
+        <RxBorderSolid className='text-4xl xl:text-5xl lg:text-6xl md:text-8xl' />
+        </div>
+        <h1 className="text-[#000] text-4xl md:text-5xl lg:6xl xl:text-9xl font-normal whitespace-nowrap w-content">Consulting </h1>
+        <div className='h-full flex items-center'>
+        <RxBorderSolid className='text-4xl xl:text-5xl lg:text-6xl md:text-8xl' />
+        </div>
         
        
        

@@ -52,7 +52,7 @@ a {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-400%);
+    transform: translateX(-800%);
   } 
 }
 
@@ -69,12 +69,12 @@ a {
 .logos-slide {
   white-space: nowrap;
   display: flex;
-  animation: 20s slide infinite linear;
+  animation: 40s slide infinite linear;
 }
 .logos-slide2 {
   white-space: nowrap;
   display: flex;
-  animation: 30s slide2 infinite linear;
+  animation: 40s slide2 infinite linear;
 }
 .logos-slide img {
   height:50px;

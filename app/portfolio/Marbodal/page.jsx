@@ -56,7 +56,7 @@ export default function Marbodal () {
                   </div>
                   <div>
                     <h1 className='text-xs md:text-lg uppercase text-[#5d5d5d] font-normal'>Webb</h1>
-                    <Link className='md:text-lg underline font-normal' href="https://www.marbodal.se">
+                    <Link className='md:text-lg underline font-normal' href="https://www.marbodal.se/hitta-butik/jonkoping/starcenter/?gad_source=1&gclid=CjwKCAiA-bmsBhAGEiwAoaQNmrrgnnJBVrGdE6Q-BjgkHzS5a100wFEXQm16q5wXVEuCtHkRoCsRIRoCouQQAvD_BwE&gclsrc=aw.ds">
                     marbodal.se
                     </Link>
                   </div>

@@ -42,7 +42,7 @@ export default function ProjektHem2 () {
         
       </div>
       <div className="pt-5  border-t border-[#323232] pb-10 flex flex-col md:flex-row md:justify-between w-full">
-        <h1 className="hidden md:flex font-medium text-[#323232] text-4xl">Utvalda projekt</h1>
+        <h1 className="hidden md:flex font-medium text-[#323232] text-4xl uppercase">Utvalda projekt</h1>
         <div className="flex flex-col md:hidden">
           <h1 className="text-4xl  w-full uppercase font-medium">Utvalda</h1>
           <h1 className="font-medium uppercase flex justify-end sm:justify-center text-4xl w-full ">Projekt</h1>
@@ -90,10 +90,10 @@ export default function ProjektHem2 () {
     )  )}
     </div>
     <div className="flex mt-5 justify-between w-full">
-        <Link href="/portfolio" className=" hover:underline w-full border-b border-[#323232] font-[450] pb-2">Visa alla <MdOutlineArrowRightAlt className="inline-block text-4xl" />
+        <Link href="/portfolio" className=" hover:underline w-full border-t border-[#323232] font-[450] pt-2">Visa alla <MdOutlineArrowRightAlt className="inline-block text-4xl" />
         </Link>
       </div>
-        <div className="mt-5">
+      <div className="mt-5">
           <Link className="px-[2rem] py-[0.4rem] rounded-full border-[#323232] border uppercase text-[12px] hover:bg-black hover:text-white " href="mailto:Samuel@balleurproduction.com">
             boka ett möte
           </Link>

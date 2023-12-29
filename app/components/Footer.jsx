@@ -35,19 +35,19 @@ export default function Footer () {
           
             </div>
             <div className='flex flex-col'>
-                <h1 className='text-2xl lg:text-4xl uppercase'>Balleur production group scandinavia</h1>
+                <h1 className='text-3xl sm:text-5xl md:text-4xl lg:text-5xl 2xl:text-6xl font-medium'>Balleur production group scandinavia</h1>
                 <div className='mt-5 flex flex-col gap-2'>
                   <Link className='w-min' href="mailto:Samuel@balleurproduction.com">
-                    <h1 className='hover:text-gray-600 hover:underline text-sm md:text-md uppercase'>Samuel@balleurproduction.com</h1>
+                    <h1 className='hover:text-gray-600 hover:underline text-sm md:text-md font-medium'>Samuel@balleurproduction.com</h1>
                   </Link>
                   <Link className='w-min' href="https://instagram.com">
-                    <h1 className='hover:text-gray-600 hover:underline text-sm md:text-md uppercase'>Instagram</h1>
+                    <h1 className='hover:text-gray-600 hover:underline text-sm md:text-md font-medium'>Instagram</h1>
                   </Link>
                   <Link className='w-min' href="https://linkedin.com">
-                    <h1 className='hover:text-gray-600 hover:underline text-sm md:text-md uppercase'>linkedin</h1>
+                    <h1 className='hover:text-gray-600 hover:underline text-sm md:text-md font-medium'>Linkedin</h1>
                   </Link>
                   <Link className='w-min' href="https://linkedin.com">
-                    <h1 className='hover:text-gray-600 hover:underline text-sm md:text-md uppercase'>facebook</h1>
+                    <h1 className='hover:text-gray-600 hover:underline text-sm md:text-md font-medium'>Facebook</h1>
                   </Link>
                   
                 </div>
@@ -56,7 +56,7 @@ export default function Footer () {
            
             </div>
             <div className='flex flex-col items-center justify-center '>
-              <Link className='text-sm hover:underline' href="/Privacy">
+              <Link className='text-sm hover:underline font-normal' href="/Privacy">
                 Privacy Policy
               </Link>
               <h1 className='text-sm font-normal'>© 2023 Balleur production group snadinavia</h1>

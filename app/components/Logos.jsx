@@ -35,7 +35,24 @@ export default function Logos () {
           </div>
       </div>
       <div className="logos hidden md:flex py-5">
-        <div className="logos-slide ">
+        <div className="logos-slide flex gap-10 ">
+          <Image src="/101.jpg" alt="Atteviks" width={200} height={200} />
+          <Image src="/102.jpg" alt="Atteviks" width={200} height={200} />
+          <Image src="/103.jpg" alt="Atteviks" width={200} height={200} />
+          <Image src="/104.jpg" alt="Atteviks" width={200} height={200} />
+          <Image src="/105.jpg" alt="Atteviks" width={200} height={200} />
+          <Image src="/106.jpg" alt="Atteviks" width={200} height={200} />
+          <Image src="/107.jpg" alt="Atteviks" width={200} height={200} />
+          <Image src="/108.jpg" alt="Atteviks" width={200} height={200} />
+          <Image src="/101.jpg" alt="Atteviks" width={200} height={200} />
+          <Image src="/102.jpg" alt="Atteviks" width={200} height={200} />
+          <Image src="/103.jpg" alt="Atteviks" width={200} height={200} />
+          <Image src="/104.jpg" alt="Atteviks" width={200} height={200} />
+          <Image src="/105.jpg" alt="Atteviks" width={200} height={200} />
+          <Image src="/106.jpg" alt="Atteviks" width={200} height={200} />
+          <Image src="/107.jpg" alt="Atteviks" width={200} height={200} />
+          <Image src="/108.jpg" alt="Atteviks" width={100} height={200} />
+         
           <Image src="/101.jpg" alt="Atteviks" width={200} height={200} />
           <Image src="/102.jpg" alt="Atteviks" width={200} height={200} />
           <Image src="/103.jpg" alt="Atteviks" width={200} height={200} />

@@ -39,7 +39,7 @@ export default function Services () {
 
   return (
     <main className=''>
-    <section id="services" className=' w-full h-full max-w-[1700px] mx-auto px-4 md:px-10 pt-10 pb-20 md:py-20'>
+    <section id="services" className=' w-full h-full max-w-[1700px] mx-auto px-4 md:px-10 pt-10 pb-20 md:pt-10'>
       
         
     <div className=' md:mb-3  flex justify-between items-center border-b pt-2 border-[#323232]'>
