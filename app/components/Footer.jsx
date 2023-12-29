@@ -1,7 +1,7 @@
 import Link from 'next/link'
 export default function Footer () {
   return (
-   <main  className=''>
+   <main  className='overflow-x-hidden'>
           <div className='max-w-[1700px] mx-auto px-4 md:px-10  py-[3.5rem] md:py-20 grid grid-cols-1 md:grid-cols-2 gap-10 border-t'>
           <div className='order-2'>
               <div>
