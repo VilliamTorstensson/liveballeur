@@ -42,7 +42,7 @@ export default function ProjektHem2 () {
         
       </div>
       <div className="pt-5  border-t border-[#323232] pb-10 flex flex-col md:flex-row md:justify-between w-full">
-        <h1 className="hidden md:flex font-medium text-[#323232] text-4xl uppercase">Utvalda projekt</h1>
+        <h1 className="hidden md:flex font-normal  text-6xl ">Utvalda projekt</h1>
         <div className="flex flex-col md:hidden">
           <h1 className="text-4xl  w-full uppercase font-medium">Utvalda</h1>
           <h1 className="font-medium uppercase flex justify-end sm:justify-center text-4xl w-full ">Projekt</h1>

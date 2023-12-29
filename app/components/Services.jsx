@@ -43,13 +43,13 @@ export default function Services () {
       
         
     <div className=' md:mb-3  flex justify-between items-center border-b pt-2 border-[#323232]'>
-    <h1 className='text-sm md:text-lg uppercase  flex'>balleur production group scandinavia </h1>
+    <h1 className='text-sm md:text-lg font-medium uppercase  flex'>balleur production group scandinavia </h1>
       <LuDot className='text-2xl ' />
       
     </div>
     <div className='py-4 grid grid-cols-1 gap-5 md:grid-cols-2'>
       <div>
-      <h1 className=' font-[450] text-xl md:text-2xl lg:text-3xl uppercase '>Våra tjänster</h1>
+      <h1 className=' font-[450] text-xl mb-4 md:text-2xl lg:text-3xl uppercase '>Våra tjänster</h1>
       <div className='flex md:justify-start md:mt-10 justify-end'>
       <Link className=' button' href='mailto:Samuel@balleurproduction.com'>
         Boka ett möte
@@ -67,8 +67,8 @@ export default function Services () {
         
         <div className='flex-col  flex w-full ' key={q.id}>
             <div className={`cursor-pointer  w-full  pb-5  border-b border-[#323232]  ${q.id === 1 ? '' : ''}`}>
-            <div className='w-full flex justify-between items-center  ' onClick={() => handleQuestionClick(q.id)}>
-            <h1 className='font-medium pt-5 md:text-lg text-md w-[80%] ' onClick={() => handleQuestionClick(q.id)}>{q.question} </h1>
+            <div className='w-full flex justify-between items-center mt-5  ' onClick={() => handleQuestionClick(q.id)}>
+            <h1 className='font-normal pt-5 md:text-6xl text-3xl w-[80%] ' onClick={() => handleQuestionClick(q.id)}>{q.question} </h1>
             
             {selectedQuestion === q.id ? (
              
@@ -81,7 +81,7 @@ export default function Services () {
             
             </div>
            
-          {selectedQuestion === q.id && <p className='py-2 text-[#323232]'>{q.answer}</p>}
+          {selectedQuestion === q.id && <p className='py-2 text-md md:text-xl mt-4'>{q.answer}</p>}
         
           </div>
           

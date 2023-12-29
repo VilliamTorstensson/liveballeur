@@ -7,12 +7,12 @@ export default function About () {
       <div className="">
         <div className='animation border-b border-[#d0d0d0] flex flex-col gap-10 pb-10 pt-10'>
          
-          <h1 className=' mt-5 xl:text-6xl text-2xl text-black font-medium'><RxBorderSolid className='inline-block mr-2' />När du vill berätta vad som gör er unika krävs en berättelse, låt oss berätta den åt dig! </h1>
+          <h1 className=' mt-5 xl:text-6xl text-2xl lg:text-5xl md:text-4xl text-black font-medium'><RxBorderSolid className='inline-block mr-2' />När du vill berätta vad som gör er unika krävs en berättelse, låt oss berätta den åt dig! </h1>
           
         </div>
         <div className='animation2 grid grid-cols-1 py-5 gap-5 md:grid-cols-2 mt-5'>
             <div>
-              <h1 className='text-2xl md:text-4xl'>Om oss</h1>
+              <h1 className='text-2xl md:text-4xl font-medium'>Om oss</h1>
             </div>
             <div className='flex flex-col gap-10 pb-10'>
               <h1 className='text-md md:text-xl font-normal'>
@@ -29,15 +29,15 @@ export default function About () {
         </div>
         <div className='grid grid-cols-2 md:grid-cols-3 border-t pt-5 gap-10 md:gap-5 py-10'>
           <div className='flex flex-col gap-2'>
-            <h1 className='uppercase text-sm text-[#6c6c6c]'>Grundades</h1>
+            <h1 className='font-normal text-lg text-[#6c6c6c]'>Grundades</h1>
             <h1 className='text-6xl md:text-8xl  font-normal'>2015</h1>
           </div>
           <div className='flex flex-col gap-2'>
-            <h1 className='uppercase text-sm text-[#6c6c6c]'>Nöjda kunder</h1>
+            <h1 className='font-normal text-lg text-[#6c6c6c]'>Nöjda kunder</h1>
             <h1 className='text-6xl md:text-8xl  font-normal'>20+</h1>
           </div>
           <div className='flex flex-col gap-2'>
-            <h1 className='uppercase text-sm text-[#6c6c6c]'>Projekt</h1>
+            <h1 className='font-normal text-lg text-[#6c6c6c]'>Projekt</h1>
             <h1 className='text-6xl md:text-8xl  font-normal'>50+</h1>
           </div>
           
@@ -47,7 +47,7 @@ export default function About () {
             <Link href="mailto:Samuel@balleurproduction.com" className='button w-min' >Boka ett möte!</Link>
           </div>
         <div>
-          <h1 className='font-medium text-lg pt-5 uppercase'>Vi har erbjudit proffesionella tjänster sedan 2015</h1>
+          <h1 className='font-normal text-3xl md:text-7xl pt-5 pb-5 '>Vi har erbjudit proffesionella tjänster sedan 2015</h1>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-10 pb-10 pt-5'>
           <h1 className='border-b py-2 text-md md:text-xl font-normal'>Foto</h1>
@@ -57,7 +57,7 @@ export default function About () {
         </div>
       </div>
       <div className='lg:w-[70%] w-full py-10 flex flex-col gap-10'>
-        <h1 className='font-normal'><span className='text-xl font-medium'>Från norr till söder, vi finns i hela landet </span>
+        <h1 className='font-normal'><span className='md:text-6xl lg:text-8xl text-4xl font-normal'>Från norr till söder, vi finns i hela landet </span>
 
  
 
