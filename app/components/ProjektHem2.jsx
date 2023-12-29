@@ -43,10 +43,10 @@ export default function ProjektHem2 () {
         </Link>
       </div>
       <div className="mt-5 mb-5">
-        <h1 className="hidden md:flex text-4xl">Utvalda projekt</h1>
+        <h1 className="hidden md:flex font-medium uppercase text-4xl">Utvalda projekt</h1>
         <div className="flex flex-col md:hidden">
-          <h1 className="text-4xl  w-full font-normal">Utvalda</h1>
-          <h1 className="font-normal flex justify-center text-4xl w-full ">Projekt</h1>
+          <h1 className="text-4xl  w-full uppercase font-medium">Utvalda</h1>
+          <h1 className="font-medium uppercase flex justify-center text-4xl w-full ">Projekt</h1>
         </div>
       </div>
 

@@ -63,8 +63,8 @@ export default function ProjektHem2 () {
             <Image src={projekt.url} alt={projekt.banner} width={1080} height={1080} />
             </div>
             <div className="flex justify-between mt-2">
-            <h1 className="uppercase">{projekt.title}</h1>
-            <h1 className="uppercase text-gray-500 text-sm">{projekt.service}</h1>
+            <h1 className="capitalize font-[450]">{projekt.title}</h1>
+            <h1 className="capitalize font-[450] text-gray-500 text-sm">{projekt.service}</h1>
             </div>
             </div>
             </Link>
@@ -77,8 +77,8 @@ export default function ProjektHem2 () {
             <Image src={projekt.url2} alt={projekt.banner} width={1080} height={1080} />
             </div>
             <div className="flex justify-between mt-2">
-            <h1 className="uppercase">{projekt.title2}</h1>
-            <h1 className="uppercase text-gray-500 text-sm">{projekt.service2}</h1>
+            <h1 className="capitalize font-[450]">{projekt.title2}</h1>
+            <h1 className="capitalize font-[450] text-gray-500 text-sm">{projekt.service2}</h1>
             </div>
             </div>
             </Link>
