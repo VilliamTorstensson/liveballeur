@@ -74,7 +74,7 @@ a {
 .logos-slide2 {
   white-space: nowrap;
   display: flex;
-  animation: 50s slide2 infinite linear;
+  animation: 30s slide2 infinite linear;
 }
 .logos-slide img {
   height:50px;
