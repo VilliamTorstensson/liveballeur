@@ -47,6 +47,14 @@ a {
     transform: translateX(-100%);
   } 
 }
+@keyframes slide2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-400%);
+  } 
+}
 
 .logos {
   overflow-x: hidden;
@@ -62,6 +70,11 @@ a {
   white-space: nowrap;
   display: flex;
   animation: 20s slide infinite linear;
+}
+.logos-slide2 {
+  white-space: nowrap;
+  display: flex;
+  animation: 50s slide2 infinite linear;
 }
 .logos-slide img {
   height:50px;

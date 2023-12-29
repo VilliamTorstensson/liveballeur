@@ -1,4 +1,5 @@
 import Hero from './components/Hero'
+import TextSlider from './components/TextSlider'
 import Stats from './components/Stats'
 import Services from './components/Services'
 import Logos from './components/Logos'
@@ -8,6 +9,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      <TextSlider />
       <ProjektHem2 />
       <Services />
       <AboutHome />
