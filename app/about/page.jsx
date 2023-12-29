@@ -40,19 +40,20 @@ export default function About () {
             <h1 className='uppercase text-sm'>Projekt</h1>
             <h1 className='text-6xl md:text-8xl text-[#6c6c6c] font-normal'>50+</h1>
           </div>
-          <div className='flex flex-col items-start justify-end  md:mt-5 gap-2'>
-            <Link href="/" className='button w-min' >Boka ett möte!</Link>
-          </div>
+          
           
         </div>
+        <div className='flex flex-col items-start justify-end  md:mt-5 gap-2 mb-5'>
+            <Link href="/" className='button w-min' >Boka ett möte!</Link>
+          </div>
         <div>
-          <h1 className='font-medium text-lg pt-5'>Vi har erbjudit profesienella tjänster sedan 2015</h1>
+          <h1 className='font-medium text-lg pt-5 uppercase'>Vi har erbjudit proffesionella tjänster sedan 2015</h1>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-10 pb-10 pt-5'>
-          <h1 className='border-b py-2 text-xl font-normal'>Foto</h1>
-          <h1 className='border-b py-2 text-xl font-normal'>Film</h1>
-          <h1 className='border-b py-2 text-xl font-normal'>Social media management</h1>
-          <h1 className='border-b py-2 text-xl font-normal'>Consulting</h1>
+          <h1 className='border-b py-2 text-md md:text-xl font-normal'>Foto</h1>
+          <h1 className='border-b py-2 text-md md:text-xl font-normal'>Film</h1>
+          <h1 className='border-b py-2 text-md md:text-xl font-normal'>Social media management</h1>
+          <h1 className='border-b py-2 text-md md:text-xl font-normal'>Consulting</h1>
         </div>
       </div>
       <div className='lg:w-[70%] w-full py-10 flex flex-col gap-10'>
