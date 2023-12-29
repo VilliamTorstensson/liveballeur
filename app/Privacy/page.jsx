@@ -1,3 +1,4 @@
+import Link from 'next/link'
 export default function Privacy () {
   return (
   <main className="max-w-[1700px] py-20 mx-auto px-4 md:px-10">
