@@ -45,7 +45,7 @@ export default function ProjektHem2 () {
         <h1 className="hidden md:flex font-medium text-[#323232] text-4xl">Utvalda projekt</h1>
         <div className="flex flex-col md:hidden">
           <h1 className="text-4xl  w-full uppercase font-medium">Utvalda</h1>
-          <h1 className="font-medium uppercase flex justify-center text-4xl w-full ">Projekt</h1>
+          <h1 className="font-medium uppercase flex justify-end sm:justify-center text-4xl w-full ">Projekt</h1>
         </div>
         <div className="flex justify-start mt-5 w-min">
         <Link href="/portfolio" className="w-min button flex items-center">Visa alla

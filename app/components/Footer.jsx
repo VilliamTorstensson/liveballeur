@@ -59,7 +59,7 @@ export default function Footer () {
               <Link className='text-sm hover:underline' href="/Privacy">
                 Privacy Policy
               </Link>
-              <h1 className='text-sm'>© 2023 Balleur production group snadinavia</h1>
+              <h1 className='text-sm font-normal'>© 2023 Balleur production group snadinavia</h1>
             </div>
             <div className='bg-black text-white px-4 md:px-10 flex justify-center py-2'>
               <Link href="https://shipmedia.se">
