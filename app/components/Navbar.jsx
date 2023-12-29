@@ -7,7 +7,7 @@ export default function Navbar () {
           <Link className=' uppercase navanimation' href="/">
             Balleur production
           </Link>
-          <Link href="#contact" className='uppercase fixed hover:bg-[#474747] bottom-10 text-[12px] px-8 py-2 rounded-full bg-[#090909] text-white z-40 '>
+          <Link href="#contact" className='uppercase fixed hover:bg-[#474747] bottom-[56px] text-[12px] px-8 py-2 rounded-full bg-[#090909] text-white z-40 '>
         Kontakt
       </Link>
           <ul className='navanimation fixed mx-auto inset-x-0 lg:flex hidden w-min whitespace-nowrap bg-[#dddddd] rounded-full w-content justify-center py-3 z-40 px-2 items-center uppercase text-xs'>
@@ -33,7 +33,7 @@ export default function Navbar () {
             </li>
           </ul>
           <div className='navanimation lg:flex hidden justify-end'>
-          <Link className='button ' href="/">
+          <Link className='button ' href="mailto:Samuel@balleurproduction.com">
             Boka ett möte
           </Link>
           </div>

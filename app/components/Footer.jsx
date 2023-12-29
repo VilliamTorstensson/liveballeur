@@ -46,11 +46,18 @@ export default function Footer () {
             </div>
            
             </div>
-            <div className='bg-black text-white px-4 md:px-10 flex justify-center py-1'>
+            <div className='flex flex-col items-center justify-center '>
+              <Link className='text-sm hover:underline' href="/Privacy">
+                Privacy Policy
+              </Link>
+              <h1 className='text-sm'>© 2023 Balleur production group snadinavia</h1>
+            </div>
+            <div className='bg-black text-white px-4 md:px-10 flex justify-center py-2'>
               <Link href="https://shipmedia.se">
                 <h1 className='text-sm text-center font-normal'>Producerad av <span className='underline'>Shipmedia.se</span></h1>
               </Link>
             </div>
+            
             </main>
 
   )

@@ -48,7 +48,7 @@ export default function Services () {
       
     </div>
     <div className='py-4'>
-      <h1 className=' py-2 font-[500] text-3xl md:text-5xl lg:text-5xl '>Vi hjälper företag runt <br /> om i hela landet med</h1>
+      <h1 className=' py-2 font-[450] text-3xl md:text-5xl lg:text-5xl '>Vi hjälper företag runt om i hela sverige med</h1>
     </div>
     <div className='flex flex-col gap-4 '>
         
@@ -56,13 +56,13 @@ export default function Services () {
       {questions.map((q) => (
         
         <div className='flex-col  flex w-full ' key={q.id}>
-            <div className={`cursor-pointer border-b-[1px] border-[#323232]  rounded-sm w-full pb-5  ${q.id === 1 ? '' : ''}`}>
+            <div className={`cursor-pointer bg-gray-50  rounded-sm w-full hover:scale-[1.02] duration-500 pb-5 px-4 rounded-md shadow-md shadow-[#c4c4c4]  ${q.id === 1 ? '' : ''}`}>
             <div className='w-full flex justify-between items-center  ' onClick={() => handleQuestionClick(q.id)}>
-            <h1 className='pt-5 md:text-xl text-md uppercase w-[80%] ' onClick={() => handleQuestionClick(q.id)}>{q.question} </h1>
+            <h1 className='font-medium pt-5 md:text-lg text-md w-[80%] ' onClick={() => handleQuestionClick(q.id)}>{q.question} </h1>
             
             {selectedQuestion === q.id ? (
-              <FaMinus  className='text-2xl'/>) : (
-                <FaPlus className='text-2xl' />
+              <FaMinus  className='text-xl'/>) : (
+                <FaPlus className='text-xl' />
               )}
             
             </div>
