@@ -39,14 +39,14 @@ export default function ProjektHem2 () {
   return (
     <main className="max-w-[1700px] mx-auto px-4 md:px-10 py-10 md:py-20">
           <div className="flex">
-        <Link href="/portfolio" className=" hover:underline w-full border-b border-[#323232] uppercase pb-2 ">se alla projekt <MdOutlineArrowRightAlt className="inline-block text-4xl" />
+        <Link href="/portfolio" className=" hover:underline w-full border-b border-[#323232] font-[450] pb-2 ">Se alla projekt <MdOutlineArrowRightAlt className="inline-block text-4xl" />
         </Link>
       </div>
       <div className="mt-5 mb-5">
-        <h1 className="hidden md:flex text-4xl uppercase ">utvalda projekt</h1>
+        <h1 className="hidden md:flex text-4xl">Utvalda projekt</h1>
         <div className="flex flex-col md:hidden">
-          <h1 className="text-4xl uppercase w-full ">utvalda</h1>
-          <h1 className="flex justify-center text-4xl uppercase w-full ">projekt</h1>
+          <h1 className="text-4xl  w-full ">Utvalda</h1>
+          <h1 className="flex justify-center text-4xl w-full ">Projekt</h1>
         </div>
       </div>
 
@@ -63,8 +63,8 @@ export default function ProjektHem2 () {
             <Image src={projekt.url} alt={projekt.banner} width={1080} height={1080} />
             </div>
             <div className="flex justify-between mt-2">
-            <h1 className="uppercase">{projekt.title}</h1>
-            <h1 className="uppercase text-gray-500 text-sm">{projekt.service}</h1>
+            <h1 className="capitalize font-[450]">{projekt.title}</h1>
+            <h1 className="capitalize font-[450] text-gray-500 text-sm">{projekt.service}</h1>
             </div>
             </div>
             </Link>
@@ -77,8 +77,8 @@ export default function ProjektHem2 () {
             <Image src={projekt.url2} alt={projekt.banner} width={1080} height={1080} />
             </div>
             <div className="flex justify-between mt-2">
-            <h1 className="uppercase">{projekt.title2}</h1>
-            <h1 className="uppercase text-gray-500 text-sm">{projekt.service2}</h1>
+            <h1 className="capitalize font-[450]">{projekt.title2}</h1>
+            <h1 className="capitalize font-[450] text-gray-500 text-sm">{projekt.service2}</h1>
             </div>
             </div>
             </Link>
@@ -87,7 +87,7 @@ export default function ProjektHem2 () {
     )  )}
     </div>
     <div className="flex mt-5 justify-between w-full">
-        <Link href="/portfolio" className=" hover:underline w-full border-b border-[#323232] uppercase pb-2">Visa alla <MdOutlineArrowRightAlt className="inline-block text-4xl" />
+        <Link href="/portfolio" className=" hover:underline w-full border-b border-[#323232] font-[450] pb-2">Visa alla <MdOutlineArrowRightAlt className="inline-block text-4xl" />
         </Link>
       </div>
         <div className="mt-5">

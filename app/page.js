@@ -1,5 +1,5 @@
 import Hero from './components/Hero'
-
+import Stats from './components/Stats'
 import Services from './components/Services'
 import Logos from './components/Logos'
 import AboutHome from './components/AboutHome'
@@ -11,7 +11,9 @@ export default function Home() {
       <ProjektHem2 />
       <Services />
       <AboutHome />
+    
       <Logos />
+      <Stats />
      
       
     </main>

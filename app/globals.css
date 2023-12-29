@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
 * {
   box-sizing: border-box;
   padding: 0;
@@ -15,6 +16,7 @@ body {
 
 h1 {
   font-weight: 550;
+  font-family: 'Neue Haas Grotesk Display Pro' sans-serif;
 }
 p  {
   font-weight: 400;
@@ -90,6 +92,9 @@ a {
 }
 .animation {
   animation: fade-in 1s 0.3s backwards;
+}
+.animation2 {
+  animation: fade-in 1s 0.7s backwards;
 }
 .background1 {
   background-image: url(/jkpgcomp.jpg);

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-
+import { IoIosArrowRoundBack } from "react-icons/io";
 export default function Jkpgfast () {
 
   const content = [
@@ -98,6 +98,9 @@ export default function Jkpgfast () {
                 </h1>
                 </div>
               </div>
+              <Link className='hover:underline' href="/portfolio#work"><IoIosArrowRoundBack className='inline-block text-4xl' />
+
+                Tillbaka</Link>
               </div>
             ))}
         </section>

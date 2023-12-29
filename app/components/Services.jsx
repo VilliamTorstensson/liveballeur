@@ -48,7 +48,7 @@ export default function Services () {
       
     </div>
     <div className='py-4'>
-      <h1 className='uppercase  py-2 text-2xl md:text-5xl lg:text-5xl '>Vi hjälper företag runt <br /> om i hela landet med</h1>
+      <h1 className=' py-2 font-[500] text-3xl md:text-5xl lg:text-5xl '>Vi hjälper företag runt <br /> om i hela landet med</h1>
     </div>
     <div className='flex flex-col gap-4 '>
         

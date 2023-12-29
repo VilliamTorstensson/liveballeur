@@ -1,4 +1,4 @@
-
+import { IoIosArrowRoundBack } from 'react-icons/io'
 import Link from 'next/link'
 
 export default function Asports () {
@@ -49,6 +49,9 @@ export default function Asports () {
               <div className='mt-5 mb-10'>
              <video className='rounded-lg' src="/asports.mp4" controls muted loop width="100%" height="100%" />
              </div>
+             <Link className='hover:underline' href="/portfolio#work"><IoIosArrowRoundBack className='inline-block text-4xl' />
+
+                Tillbaka</Link>
         </section>
     </main>
   )

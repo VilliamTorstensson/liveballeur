@@ -4,6 +4,8 @@ import Footer from './components/Footer'
 import { GeistSans } from 'geist/font/sans';
 
 
+
+
 export const metadata = {
   title: 'Balleur production',
   description: 'Digital marknadsföringsbyrå',
