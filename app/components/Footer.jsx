@@ -2,6 +2,7 @@ import Link from 'next/link'
 export default function Footer () {
   return (
    <main  className='overflow-x-hidden'>
+
           <div className='max-w-[1700px] mx-auto px-4 md:px-10  py-[3.5rem] md:py-20 grid grid-cols-1 md:grid-cols-2 gap-10 border-t'>
           <div className='order-2'>
               <div>
@@ -15,21 +16,23 @@ export default function Footer () {
               <input type="text" placeholder="Företag * (optional)" className="w-full h-10 border-b text-black font-normal placeholder-gray-600  text-sm py-2 bg-transparent border-gray-600" required />
               </div>
               <input type="textarea" placeholder="Vi är intresserade av *" className=" w-full h-10 border-b text-black font-normal mt-10 placeholder-gray-600  text-sm py-2 bg-transparent border-gray-600" />
-              </form>
-              
-              
-            
-            <div className='mt-5'>
+
+              <div className='mt-5'>
             <button className='button' type="submit">
               Skicka
             </button>
             </div>
+              </form>
+              
+              
+            
+          
             </div>
             <div className='flex flex-col'>
                 <h1 className='text-2xl lg:text-4xl uppercase'>Balleur production group scandinavia</h1>
                 <div className='mt-5 flex flex-col gap-2'>
-                  <Link className='w-min' href="mailto:kontakt@balleur.se">
-                    <h1 className='hover:text-gray-600 hover:underline text-sm md:text-md uppercase'>kontakt@balleur</h1>
+                  <Link className='w-min' href="mailto:Samuel@balleurproduction.com">
+                    <h1 className='hover:text-gray-600 hover:underline text-sm md:text-md uppercase'>Samuel@balleurproduction.com</h1>
                   </Link>
                   <Link className='w-min' href="https://instagram.com">
                     <h1 className='hover:text-gray-600 hover:underline text-sm md:text-md uppercase'>Instagram</h1>

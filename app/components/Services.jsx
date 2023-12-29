@@ -61,8 +61,12 @@ export default function Services () {
             <h1 className='font-medium pt-5 md:text-lg text-md w-[80%] ' onClick={() => handleQuestionClick(q.id)}>{q.question} </h1>
             
             {selectedQuestion === q.id ? (
-              <FaMinus  className='text-xl'/>) : (
-                <FaPlus className='text-xl' />
+             
+              <FaMinus  className='text-sm md:text-lg'/>
+                ) : (
+               
+                <FaPlus  className='text-sm md:text-lg'/>
+                 
               )}
             
             </div>
