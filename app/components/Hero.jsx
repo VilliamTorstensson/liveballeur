@@ -7,7 +7,7 @@ export default function Hero () {
   const hero = [
     {
       id: 1,
-      title: 'Vi skapar konverterande kunder av skrollande fingrar',
+      title: 'Vi omvandlar skrollande fingrar till konverterande kunder',
     
     }
   ]

@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { FaPlus } from "react-icons/fa6";
 import { FaMinus } from "react-icons/fa6";
 import { LuDot } from "react-icons/lu";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+
 
 export default function Services () {
   const [selectedQuestion, setSelectedQuestion] = useState(null);
@@ -39,16 +39,26 @@ export default function Services () {
 
   return (
     <main className=''>
-    <section id="services" className=' w-full h-full max-w-[1700px] mx-auto px-4 md:px-10 py-10 md:py-20'>
+    <section id="services" className=' w-full h-full max-w-[1700px] mx-auto px-4 md:px-10 pt-10 pb-20 md:py-20'>
       
         
-    <div className=' md:mb-3  flex justify-between items-center border-b pb-2 border-[#323232]'>
+    <div className=' md:mb-3  flex justify-between items-center border-b pt-2 border-[#323232]'>
     <h1 className='text-sm md:text-lg uppercase  flex'>balleur production group scandinavia </h1>
       <LuDot className='text-2xl ' />
       
     </div>
-    <div className='py-4'>
-      <h1 className=' py-2 font-[450] text-3xl md:text-5xl lg:text-5xl '>Vi hjälper företag runt om i hela sverige med</h1>
+    <div className='py-4 grid grid-cols-1 gap-5 md:grid-cols-2'>
+      <div>
+      <h1 className=' font-[450] text-xl md:text-2xl lg:text-3xl uppercase '>Våra tjänster</h1>
+      <div className='flex md:justify-start md:mt-10 justify-end'>
+      <Link className=' button' href='mailto:Samuel@balleurproduction.com'>
+        Boka ett möte
+      </Link>
+      </div>
+      </div>
+      <div className='text-lg md:text-xl'>
+        <p>Sedan 2015 har vi hjälp företag med Foto, Film och social media management, för att hjälpa dem att stärka sitt varumärke på sociala medier men också inom sin verksamhet </p>
+      </div>
     </div>
     <div className='flex flex-col gap-4 '>
         
@@ -56,7 +66,7 @@ export default function Services () {
       {questions.map((q) => (
         
         <div className='flex-col  flex w-full ' key={q.id}>
-            <div className={`cursor-pointer bg-gray-50   w-full hover:scale-[1.02] duration-500 pb-5 px-4 rounded-md shadow-md shadow-[#c4c4c4]  ${q.id === 1 ? '' : ''}`}>
+            <div className={`cursor-pointer  w-full  pb-5  border-b border-[#323232]  ${q.id === 1 ? '' : ''}`}>
             <div className='w-full flex justify-between items-center  ' onClick={() => handleQuestionClick(q.id)}>
             <h1 className='font-medium pt-5 md:text-lg text-md w-[80%] ' onClick={() => handleQuestionClick(q.id)}>{q.question} </h1>
             
@@ -79,12 +89,7 @@ export default function Services () {
       
       ))}
       </div>
-      <div className='mt-6 flex-col flex gap-5'>
       
-      <Link className='button w-min' href="mailto:Samuel@balleurproduction.com">
-        Boka ett möte
-      </Link>
-    </div>
    
   
     </section>
