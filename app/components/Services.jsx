@@ -56,7 +56,7 @@ export default function Services () {
       {questions.map((q) => (
         
         <div className='flex-col  flex w-full ' key={q.id}>
-            <div className={`cursor-pointer bg-gray-50  rounded-sm w-full hover:scale-[1.02] duration-500 pb-5 px-4 rounded-md shadow-md shadow-[#c4c4c4]  ${q.id === 1 ? '' : ''}`}>
+            <div className={`cursor-pointer bg-gray-50   w-full hover:scale-[1.02] duration-500 pb-5 px-4 rounded-md shadow-md shadow-[#c4c4c4]  ${q.id === 1 ? '' : ''}`}>
             <div className='w-full flex justify-between items-center  ' onClick={() => handleQuestionClick(q.id)}>
             <h1 className='font-medium pt-5 md:text-lg text-md w-[80%] ' onClick={() => handleQuestionClick(q.id)}>{q.question} </h1>
             
