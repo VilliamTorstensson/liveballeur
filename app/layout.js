@@ -1,7 +1,7 @@
 import './globals.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import { GeistSans } from 'geist/font/sans';
+
 import { Wix_Madefor_Display} from 'next/font/google'
 
 
