@@ -61,11 +61,7 @@ export default function Footer () {
               </Link>
               <h1 className='text-sm font-normal'>© 2023 Balleur production group snadinavia</h1>
             </div>
-            <div className='bg-black text-white px-4 md:px-10 flex justify-center py-2'>
-              <Link href="https://shipmedia.se">
-                <h1 className='text-sm text-center font-normal'>Producerad av <span className='underline'>Shipmedia.se</span></h1>
-              </Link>
-            </div>
+          
             
             </main>
 
