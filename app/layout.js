@@ -9,7 +9,7 @@ import { GeistSans } from 'geist/font/sans';
 
 export const metadata = {
   title: 'Balleur production',
-  description: 'Digital marknadsföringsbyrå',
+  description: 'Vi skapar innehåll för sociala medier, hemsidor och andra digitala plattformar. Vi hjälper dig att skapa en stark digital närvaro.',
 }
 
 export default function RootLayout({ children }) {

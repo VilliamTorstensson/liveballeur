@@ -38,8 +38,8 @@ export default function Jkpgfast () {
       <div className='background1 h-[80vh] relative'>
         <div className='bg-black/20 absolute w-full h-full left-0 top-0'></div>
           <div className='px-4 md:px-10 max-w-[1700px] mx-auto flex flex-col gap-10'>
-            <h1 className='text-4xl md:text-6xl text-white uppercase relative z-10 pt-10 animation'>jkpg fast</h1>
-            <h1 className='text-white md:text-6xl text-4xl relative z-10 animation'>-Omtanke,<br className='md:block hidden' /> initiativ och långsiktighet</h1>
+            <h1 className='text-4xl md:text-6xl text-white uppercase relative z-10 pt-10 animation '>jkpg fast</h1>
+            <h1 className='text-white md:text-6xl text-4xl relative z-10 animation2'>-Omtanke,<br className='md:block hidden' /> initiativ och långsiktighet</h1>
           </div>
       </div>
         <section className="flex flex-col max-w-[1700px] mx-auto px-4 md:px-10 ">

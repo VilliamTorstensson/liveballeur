@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { RxBorderSolid } from 'react-icons/rx'
+import { motion } from 'framer-motion'
 export default function Hero () {
 
   const hero = [
@@ -26,13 +27,15 @@ export default function Hero () {
   
       {hero.map((item) => {
         return (
-          <div key={item.id} className='flex flex-col lg:gap-10 2xl:gap-20 gap-8 '>
-          <h1 key={item.id} className='animation w-full font-[500]  py-1  text-[2rem]   sm:text-4xl md:text-5xl xl:text-8xl '><RxBorderSolid className='inline-block mr-2' />{item.title}</h1>
-          <Image src="/herocomp.jpg" alt="Picture of the author" width={2000} height={1000} className='animation2 rounded-md md:block hidden' />
-          <Image src="/heromob.webp" alt="Picture of the author" width={2000} height={1000} className='animation2  md:hidden block' />
-          <Link href="mailto:Samuel@balleurproduction.com" className='button w-min animation2' >Boka ett möte!</Link>
+          <div
+           key={item.id} className='flex flex-col lg:gap-10 2xl:gap-20 gap-8 '>
+          <h1 key={item.id} className=' w-full font-[500]  py-1  text-[2rem]  animation sm:text-4xl md:text-5xl xl:text-8xl '><RxBorderSolid className='inline-block mr-2' />{item.title}</h1>
+          <Image src="/herocomp.jpg" alt="Picture of the author" width={2000} height={1000} className=' rounded-md md:block hidden animation2' />
+          <Image src="/heromob.webp" alt="Picture of the author" width={2000} height={1000} className='  md:hidden block animation2' />
+          <Link href="mailto:Samuel@balleurproduction.com" className='button w-min animation2 animation2' >Boka ett möte!</Link>
            
           </div>
+         
         )
         
       })}

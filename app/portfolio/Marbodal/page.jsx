@@ -36,8 +36,8 @@ export default function Marbodal () {
       <div className='background2 h-[80vh] relative'>
         <div className='bg-black/20 absolute w-full h-full left-0 top-0'></div>
           <div className='px-4 md:px-10 max-w-[1700px] mx-auto flex flex-col gap-10'>
-            <h1 className='text-4xl md:text-6xl text-white uppercase relative z-10 pt-10 animation'>Starcenter - Marbodal</h1>
-            <h1 className='text-white md:text-6xl text-4xl relative z-10 animation'>- Din köksleverantör,<br className='md:block hidden' /> i jönköping</h1>
+            <h1 className='text-4xl md:text-6xl text-white uppercase relative z-10 pt-10 animation '>Starcenter - Marbodal</h1>
+            <h1 className='text-white md:text-6xl text-4xl relative z-10 animation2'>- Din köksleverantör,<br className='md:block hidden' /> i jönköping</h1>
           </div>
       </div>
         <section className="flex flex-col max-w-[1700px] mx-auto px-4 md:px-10 ">
