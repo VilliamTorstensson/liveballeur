@@ -89,11 +89,8 @@ export default function ProjektHem2 () {
         
     )  )}
     </div>
-    <div className="flex mt-5 justify-between w-full">
-        <Link href="/portfolio" className=" hover:underline w-full border-t border-[#323232] font-[450] pt-2">Visa alla <MdOutlineArrowRightAlt className="inline-block text-4xl" />
-        </Link>
-      </div>
-      <div className="mt-5">
+   
+      <div className="mt-5 border-t pt-5 border-[#323232]">
           <Link className="px-[2rem] py-[0.4rem] rounded-full border-[#323232] border uppercase text-[12px] hover:bg-black hover:text-white " href="mailto:Samuel@balleurproduction.com">
             boka ett möte
           </Link>

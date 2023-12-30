@@ -47,18 +47,12 @@ export default function Services () {
       <LuDot className='text-2xl ' />
       
     </div>
-    <div className='py-4 grid grid-cols-1 gap-5 md:grid-cols-2'>
+    <div className='py-4'>
       <div>
       <h1 className=' font-[450] text-xl mb-4 md:text-2xl lg:text-3xl uppercase '>Våra tjänster</h1>
-      <div className='flex md:justify-start md:mt-10 justify-end'>
-      <Link className=' button' href='mailto:Samuel@balleurproduction.com'>
-        Boka ett möte
-      </Link>
+      
       </div>
-      </div>
-      <div className='text-lg md:text-xl'>
-        <p>Sedan 2015 har vi hjälp företag med Foto, Film och social media management, för att hjälpa dem att stärka sitt varumärke på sociala medier men också inom sin verksamhet </p>
-      </div>
+    
     </div>
     <div className='flex flex-col gap-4 '>
         
@@ -89,8 +83,11 @@ export default function Services () {
       
       ))}
       </div>
-      
-   
+      <div className='mt-10'>
+      <Link className=' button' href='mailto:Samuel@balleurproduction.com'>
+        Boka ett möte
+      </Link>
+      </div>
   
     </section>
     </main>
