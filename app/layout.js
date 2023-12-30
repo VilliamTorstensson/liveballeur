@@ -1,7 +1,6 @@
 import './globals.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-
 import { Wix_Madefor_Display} from 'next/font/google'
 
 
@@ -12,8 +11,6 @@ export const metadata = {
   description: 'Vi skapar innehåll för sociala medier, hemsidor och andra digitala plattformar. Vi hjälper dig att skapa en stark digital närvaro.',
 }
 const font = Wix_Madefor_Display({
-  weights: [400, 500, 600, 700, 800],
-  style: ['normal'],
   subsets: ['latin'],
   display: 'swap',
 
